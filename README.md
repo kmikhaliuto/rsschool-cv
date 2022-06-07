@@ -1,1 +1,1 @@
-# rssschool-cv
+https://github.com/kmihaliuto
