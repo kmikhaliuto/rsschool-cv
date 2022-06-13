@@ -1,3 +1,99 @@
-body{
-	color: blue;
+/*Обнуление*/
+body {font-family: 'Oswald'; background-color: black; color: #FFFFFF;}
+*{padding: 0;margin: 0;border: 0;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+
+/*--------------------*/
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+/*--------header---------------*/
+.header__container {
+    display: flex;
+    margin: 0px 0px 40px 0px;
+}
+.header__photo {
+   
+}
+.photo {
+    border-radius: 250px;
+    height:500px;
+    width: 500px;
+}
+.header__block {
+    margin: 100px 0px 0px 55px;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.header__h1 {
+    margin: 0px 0px 30px 0px;
+
+}
+.header__h2 {
+    margin: 0px 0px 30px 0px;
+
+    }
+.heading__1 {
+font-size: 94px;
+line-height: 105px;
+}
+.heading__2 {
+font-size: 74px;
+line-height: 69px;
+}
+.header__nav {
+}
+.header__link {
+}
+.header__icon {
+    border-radius: 35px;
+    width: 64px;
+    height: 64px;
+}
+/*------------main------------*/
+.main__block {
+   display: flex;
+   flex-wrap: wrap;
+  justify-content: space-around;
+    padding: 70px;
+}
+.block__item {
+     width: min-width(150px);
+     margin: 0px 0px 0px;
+    }
+.item__1 {
+    width: 450px;
+}
+.item__heding {}
+.heading {
+    font-size: 55px;
+    line-height: 65px;
+    text-decoration: underline;
+}
+.item__text {
+    font-size: 35px;
+line-height: 45px;
+}
+.item__paragraph {}
+.item__2 {}
+.unlabeled__list {}
+.list {}
+.item__3 {
+    width: 200px;
+}
+.item__4 {}
+.item__5 {
+    width: 200px;
+}
+/*----footer---*/
+.mades {
+    padding: 20px;
 }
