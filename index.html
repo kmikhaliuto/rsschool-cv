@@ -1,1 +1,130 @@
-adasd
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="wrapper">
+    <header class="cv__header">  
+            <nav class="header__navigation">
+                <ul class="navigation__list">
+                    <li class="list__links"><a href="#about" class="link">About</a></li>
+                    <li class="list__links"><a href="#code" class="link">Code</a></li>
+                    <li class="list__links"><a href="#skills" class="link">Skills</a></li>
+                    <li class="list__links"><a href="#contacts" class="link">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="header__block">
+                <div class="header__photo"><img src="./photo/photo_2021-11-13_19-39-26.jpg" alt="" class="header-block__photo"></div>
+                <div class="header-block__info">
+                    <h1 class="header__item-1">
+                        Mikhaliuto Konstantin
+                    </h1>
+                    <h2 class="header-block__item-2">
+                        Future front-end developer
+                    </h2>
+                </div>
+            </div>  
+        </header>
+     <div class="main">
+            <aside class="cv-menu">
+                <section class="education">
+                    <div class="education__container container">
+                        <h2 class="education__title second__title">
+                            Education
+                        </h2>
+                        <div class="line"></div>
+                        <div class="education__text text">
+                            Belarusian National Technical University
+                            Methods and devices for quality control and diagnostics of the condition of objects
+                        </div>
+                    </div>
+                </section>
+                <section class="skills" id="skills">
+                    <div class="skills__container container">
+                        <h2 class="skills__title second__title">
+                            Skills
+                        </h2>
+                        <div class="line"></div>
+                          <ul class="skills__list text">
+                            <li class="skills__item">Basic HTML</li>
+                            <li class="skills__item">Basic CSS</li>
+                            <li class="skills__item">Bad JavaScript</li>
+                            <li class="skills__item">Basic GitHub</li>
+                            <li class="skills__item">Basic Figma</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="contacts" id="contacts">
+                    <div class="contacts__container container">
+                       <h2 class="contscts__title second__title">
+                        Contacts
+                       </h2>
+                       <div class="line"></div>
+                       <ul class="contacts__list text">
+                            <li class="conact__item"><a href="tel:+375333609315" class="contact__link"></a>Phone</li>
+                            <li class="conact__item"><a href="mailto:kmihaliuto@mail.ru" class="contact__link"></a>E-mail</li>
+                            <li class="conact__item"><a href="https://t.me/mikhaliuto" class="contact__link"></a>Telegram</li>
+                       </ul>
+                    </div>
+                </section>
+            </aside>
+            <main class="cv__main">
+                <section class="main__about" id="about">
+                    <div class="about__container container">
+                    <h2 class="about__title second__title">
+                        About me
+                    </h2>
+                    <div class="line"></div>
+                    <div class="about__text text">I am 20 years old, I study on last year at BNTU.I don't want to work in my specialty because I don't see much growth in this job.My goal is to gain knowledge in the field of front-end development.</div>
+                  </div>
+                </section>
+                <section class="language">
+                    <div class="language__container container">
+                        <h2 class="language__title second__title">Language</h2>
+                        <div class="line"></div>
+                        <div class="language__text text">
+                            A2 Elementary
+                        </div>
+                    </div>    
+                </section>
+                <section class="code" id="code">
+                    <div class="code__container container">
+                        <h2 class="code__title second__title">
+                            Code
+                        </h2>
+                        <div class="line"></div>
+                       <div class="code__text text"><code class="code">
+                        for (let  i = 0; i &lt; 11 ; i++) {
+                            if (i % 2 == 0) {
+                              alert(i);
+                            }
+                    </code>
+                </div> 
+                    </div>
+                </section> 
+            </main> 
+        </div>
+        <footer class="footer">
+            <div class="footer__container"> 
+                <div class="footer__item-1">
+                     <a href="https://github.com/kmikhaliuto" class="footer__link"><img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.svg" alt="git" class="footer__img"></a>
+                </div>
+                <div class="footer__item-2">
+                    <a href="https://rs.school/js/" class="footer__link"><img src="./photo/unnamed.jpg" alt="rsschool" class="footer__img"></a>
+               </div>
+                <div class="footer__created text">
+                    © Mikhaliuto K.A
+                </div>
+            </div>
+        </footer>
+        </div>
+        <script src="js.js"></script>
+</body>
+</html>
